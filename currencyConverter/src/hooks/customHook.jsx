@@ -10,7 +10,6 @@ function customHook(currency){
         .then((res) => setData(res[currency]))
 
         console.log(data);
-
         
     }, [currency])
     
